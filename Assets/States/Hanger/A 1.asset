@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db93c0a8b0cb8e444bee990353992c6f, type: 3}
+  m_Name: A 1
+  m_EditorClassIdentifier: 
+  storyText: "Every powerfull Cyborg in the night city is getting infected of Cyberpsychosis.
+    They tend to lose themselves in this state and go berserk.\n\nMaybe I can do
+    something about it or should I just care for my own goal to reach the moon?\n\n1.\tResearch
+    about Cyberpsychosis\n2.\tResearch to get to the moon"
+  nextStates:
+  - {fileID: 11400000, guid: deda9b116c2ed764bacc0a8ce18076c8, type: 2}
+  - {fileID: 11400000, guid: 000f1ab5f3e47c3468c633ba040a5636, type: 2}

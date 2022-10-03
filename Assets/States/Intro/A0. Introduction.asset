@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db93c0a8b0cb8e444bee990353992c6f, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to the Game!
+
+
+    Select the options by pressing 1,2 or 3
+    ... from Keyboard to progress with the story of the game.
+
+
+    At any point
+    in time push "q" to exit.
+
+
+    Press 1 to start the game
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: b8a9503c7bb46184eb603356d1fe3afb, type: 2}
